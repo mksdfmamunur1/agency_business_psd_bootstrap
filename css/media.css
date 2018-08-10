@@ -4,7 +4,7 @@
 .header_left {
     padding: 0px 0;
     text-align: center;
-    width: 48px;
+    width: 44px;
     border-right: 1px solid #e2e2e2;
 }
 .header_left i {
@@ -17,7 +17,7 @@
     display: inline;
      margin-left: 0px; 
     color: #535454;
-    margin-right: 3px;
+    margin-right: 1px;
 }
 .header_right {
     padding: 0px 0;
