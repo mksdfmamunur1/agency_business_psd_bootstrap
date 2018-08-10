@@ -4,7 +4,7 @@
 .header_left {
     padding: 0px 0;
     text-align: center;
-    width: 46px;
+    width: 48px;
     border-right: 1px solid #e2e2e2;
 }
 .header_left i {
@@ -21,7 +21,7 @@
 }
 .header_right {
     padding: 0px 0;
-    width: 82px;
+    width: 77px;
     text-align: right;
 }
 .header_right i {
@@ -193,7 +193,16 @@ nav .btn {
 }
 .our_work .title {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+.title h1 {
+    font-family: helvetica_neue_bold;
+    font-size: 30px;
+}
+.our_work .title hr {
+    width: 30px;
+    border: none;
+    border-bottom: 3px solid white;
 }
 /*our work end*/
 /*touch start*/
@@ -202,7 +211,11 @@ nav .btn {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
+.touch_content h1 {
+    font-family: helvetica_neue_bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 /*touch end*/
 }
 
@@ -360,17 +373,7 @@ nav .btn {
 .touch_content h1 {
     font-family: helvetica_neue_bold;
     font-size: 20px;
-}
-.touch_content ul li {
-    margin: 0 0px;
-}
-.touch_content ul li a {
-    padding: 10px;
-    border: 2px solid #515151;
-}
-.touch_content ul li a i {
-    font-size: 10px;
-    color: white;
+    margin-bottom: 20px;
 }
 .touch_content p {
     margin-top: 30px;
