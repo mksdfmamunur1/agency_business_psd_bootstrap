@@ -217,6 +217,108 @@ color: white;
     margin-bottom: 20px;
 }
 /*touch end*/
+/*fb start*/
+.free_facebook {
+    background-color: #1287bf;
+    padding: 50px 0;
+}
+.fb_content h1 {
+    font-family: helvetica_neue_bold;
+    font-size: 24px;
+}
+.fb_content p {
+    font-family: helvetica_neue_Light;
+    font-size: 13px;
+}.button_toggle {
+    border: none;
+    padding: 4px 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #ffffff;
+}
+.fb_toggle .triangle {
+    content: "";
+    position: absolute;
+    top: -12%;
+    left: 42%;
+    /* margin-left: -28px; */
+    border-width: 25px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+.close-button {
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    cursor: pointer;
+    border: none;
+    padding: 0px 5px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.fb_toggle {
+    background: white;
+    position: relative;
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+.fb_toggle .form p {
+    font-family: helvetica_normal;
+    font-size: 12px;
+}
+.fb_toggle .form form {
+    padding: 0px 40px;
+}
+.fb_toggle .form form input {
+    font-family: helvetica_normal;
+    font-size: 10px;
+}
+.fb_toggle .form form .btn_bg {
+    font-family: helvetica_neue_bold;
+    font-size: 13px;
+    padding: 8px 20px;
+    margin-top: 0px;
+    background-color: #de2b24;
+    color: white;
+}
+
+/*fb end*/
+/*touch start*/
+ul li {
+    margin: 0 10px;
+}
+.touch_content ul li a {
+    padding: 5px;
+    border: 2px solid #515151;
+}
+.touch_content ul li a i {
+    font-size: 12px;
+    color: white;
+}
+.touch_content p {
+    margin-top: 20px;
+    font-size: 10px;
+}
+.email_in {
+    color: white;
+    font-size: 10px;
+    margin: 15px 0;
+    background-color: #515151;
+    height: 0%;
+}
+form .btn_custom1 {
+    font-size: 12px;
+    border: none;
+    background-color: #2a2a2a;
+    padding: 5px 25px;
+    color: white;
+    border: 2px solid #515151;
+}
+/*touch end*/
+footer p{
+	font-size: 10px;
+}
 }
 
 
@@ -365,6 +467,27 @@ color: white;
     padding-bottom: 70px;
 }
 /*our work end*/
+/*fb start*/
+.fb_toggle {
+    background: white;
+    position: relative;
+    margin-top: 55px;
+    padding: 40px 30px;
+}
+.fb_toggle .form form {
+    padding: 2px 50px;
+}
+.fb_toggle .triangle {
+    content: "";
+    position: absolute;
+    top: -21%;
+    left: 41%;
+    /* margin-left: -28px; */
+    border-width: 45px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+/*fb end*/
 /*touch start*/
 .touch {
     background-color: #2a2a2a;
@@ -575,6 +698,27 @@ border: 2px solid white;
 border-radius: 5px;
 }
 /*approch end*/
+/*fb start*/
+.fb_toggle {
+    background: white;
+    position: relative;
+    margin-top: 55px;
+    padding: 40px 30px;
+}
+.fb_toggle .form form {
+    padding: 2px 50px;
+}
+.fb_toggle .triangle {
+    content: "";
+    position: absolute;
+    top: -21%;
+    left: 40%;
+    /* margin-left: -28px; */
+    border-width: 45px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+/*fb end*/
 }
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -615,6 +759,27 @@ border: 2px solid white;
 border-radius: 5px;
 }
 /*Approch end*/
+/*fb start*/
+.fb_toggle {
+    background: white;
+    position: relative;
+    margin-top: 55px;
+    padding: 40px 30px;
+}
+.fb_toggle .form form {
+    padding: 2px 50px;
+}
+.fb_toggle .triangle {
+    content: "";
+    position: absolute;
+    top: -21%;
+    left: 43%;
+    /* margin-left: -28px; */
+    border-width: 45px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+/*fb end*/
 }
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {

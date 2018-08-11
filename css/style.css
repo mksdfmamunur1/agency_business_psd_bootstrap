@@ -299,7 +299,7 @@ nav .btn{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgba(144,180,15,.4);
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -317,7 +317,7 @@ nav .btn{
 }
 
 .text {
-  color: white;
+  color: blue;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -329,6 +329,84 @@ nav .btn{
 }
 /*our work end*/
 
+/*fb start*/
+.free_facebook{
+	background-color: #1287bf;
+	padding: 100px 0;
+}
+.fb_content{
+color: white;
+}
+.fb_content h1{
+	font-family:helvetica_neue_bold;
+	font-size: 36px;	
+}
+.fb_content p{
+	font-family: helvetica_neue_Light;
+	font-size: 20px;
+}
+.button_toggle{
+    border: none;
+    padding: 14px 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #ffffff;
+}
+.fb_content i{
+	font-size: 25px;
+}
+.fb_toggle {
+    background: white;
+    position: relative;
+    margin-top: 55px;
+    padding: 50px 90px;
+}
+.fb_toggle .triangle {
+    content: "";
+    position: absolute;
+    top: -21%;
+    left: 44%;
+    /* margin-left: -28px; */
+    border-width: 45px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+.fb_toggle .form{}
+.fb_toggle .form p{
+	font-family: helvetica_normal;
+	font-size: 15px;
+}
+.fb_toggle .form form{
+padding: 2px 66px;
+}
+.fb_toggle .form form input{
+	font-family: helvetica_normal;
+	font-size: 14px;
+}
+.fb_toggle .form form .btn_bg{
+	font-family:helvetica_neue_bold;
+	font-size: 15px;
+	padding: 12px 30px;
+    margin-top: 35px;
+    background-color: #de2b24;
+    color: white;
+}
+.close-button {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.close-button i {
+    font-size: 22px;
+    color: #ffffff;
+}
+/*fb end*/
 /*touch start*/
 .touch{
 	background-color: #2a2a2a;
